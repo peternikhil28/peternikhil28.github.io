@@ -2,40 +2,32 @@
 var NPAudioManager = NPClass.extend({
 
     _soundList : {},
-    _audioLoader : null,
-    init : function ()
-    {
-        this._super();
 
-        this._audioLoader = new THREE.AudioLoader();
-    },
-
-    playSound : function (path, loop, volume)
+    playSound : function (assetPath, loop, volume)
     {
         loop = loop || false;
         volume = volume || 1;
 
-        var sound = new THREE.Audio(NPEngine.audioListener);
-
         var self =this;
-        this._audioLoader.load(path, function( buffer ) {
-            sound.setBuffer(buffer);
-            sound.setLoop(loop);
-            sound.setVolume(volume);
-            sound.onEnded = function () {
-                self._soundList[path] = null;
-                delete self._soundList[path];
-            }
-            sound.play();
-        });
 
-        this._soundList[path] = sound;
+        var sound = new THREE.Audio(NPEngine.audioListener);
+        sound.setBuffer(NPEngine.loadedAssets[assetPath]);
+        sound.setLoop(loop);
+        sound.setVolume(volume);
+        sound.onEnded = function () {
+           self._soundList[assetPath] = null;
+           delete self._soundList[assetPath];
+        }
+        sound.play();
+
+
+        this._soundList[assetPath] = sound;
     },
 
-    stopSound : function (path)
+    stopSound : function (assetPath)
     {
-        if(this._soundList[path]!=null)
-            this._soundList[path].stop();
+        if(this._soundList[assetPath]!=null)
+            this._soundList[assetPath].stop();
     },
 
     stopAllSounds : function ()

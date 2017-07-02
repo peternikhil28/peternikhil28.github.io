@@ -11,10 +11,14 @@ var SlotGame5x3Machine = NPSlotMachine.extend({
         NPSlotUtils.MACHINE = this;
     },
 
-    onLayoutComplete : function ()
+    onDataLoaded : function (inData)
     {
-        NPEngine.audioManager.playSound(this._machineParams._assetFolder + slotGameRes.Intro_mp3);
-        this._super();
+        this._super(inData);
+
+        var self = this;
+        setTimeout(function(){
+            NPEngine.audioManager.playSound(self._machineParams._assetFolder + slotGameRes.Intro_mp3)
+        }, 1100);
     },
 
     playReelSpinSound : function ()

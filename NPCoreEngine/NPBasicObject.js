@@ -23,16 +23,14 @@ var NPBasicObject = NPClass.extend({
 
     loadAsset : function (assetPath)
     {
-        this._texture = new THREE.TextureLoader().load(assetPath);
-
-        this._material = new THREE.MeshBasicMaterial( {map: this._texture, transparent: true} );
+        this._material = new THREE.MeshBasicMaterial( {map: NPEngine.loadedAssets[assetPath], transparent: true} );
 
         this._npObject = new THREE.Mesh( this._geometry, this._material );
     },
 
     loadTexture : function (assetPath)
     {
-        this._npObject.material.map = new THREE.TextureLoader().load(assetPath);
+        this._npObject.material.map = NPEngine.loadedAssets[assetPath];
     },
 
     getDisplayObject : function ()

@@ -79,7 +79,7 @@ var NPSlotMachine = NPGameScene.extend({
                 this._stopButton = object;
                 object.setVisibility(false);
                 break;
-            case "ReelFrame.png" :
+            case "ReelFrame" :
                 object.getDisplayObject().renderOrder = 999;
                 break;
         }
@@ -131,14 +131,14 @@ var NPSlotMachine = NPGameScene.extend({
         this.setInitialState();
 
         this.render();
+
+        this.actionMoveCameraTo(this._cameraPosition.zoomIn, NPSlotUtils.CAMERA_ZOOM_DURATION, 2, this.initCameraMoveComplete.bind(this));
     },
 
     setInitialState : function ()
     {
         this.generate();
         this._reelManager.setInitialState(this._evaluator._result);
-
-        this.actionMoveCameraTo(this._cameraPosition.zoomIn, NPSlotUtils.CAMERA_ZOOM_DURATION, 1.4, this.initCameraMoveComplete.bind(this));
     },
 
     initCameraMoveComplete : function ()

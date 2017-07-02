@@ -3,8 +3,10 @@ var NPUtils ={
 
     createBasicObject : function (assetFolder, objectData)
     {
+        var assetFormat = NPEngine.loadedAssets[assetFolder + objectData.name + ".png"]!=null ? ".png" : ".jpg";
+
         var npObject = new NPBasicObject(objectData.w, objectData.h);
-        npObject.loadAsset(assetFolder + objectData.name);
+        npObject.loadAsset(assetFolder + objectData.name + assetFormat);
         npObject.setPosition(objectData.x, objectData.y);
         return npObject;
     },

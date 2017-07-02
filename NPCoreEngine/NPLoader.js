@@ -3,6 +3,9 @@ var NPLoader = NPClass.extend({
     _scene: null,
     _resource: null,
 
+    _textureLoader: null,
+    _audioLoader: null,
+
     _resIndex : 0,
 
    init : function (scene, res)
@@ -11,6 +14,9 @@ var NPLoader = NPClass.extend({
 
         this._scene = scene;
         this._resource = res;
+
+        this._textureLoader = new THREE.TextureLoader();
+        this._audioLoader = new THREE.AudioLoader();
 
         this.load();
    },
@@ -30,13 +36,28 @@ var NPLoader = NPClass.extend({
 
     loadResource : function (resPath)
     {
-        var loader = new THREE.FileLoader();
+        var format = resPath.split('.').pop();
+        var loader;
+
+        switch (format)
+        {
+            case "png":
+            case "jpg":
+                loader = this._textureLoader;
+                break;
+
+            case "mp3":
+                loader = this._audioLoader;
+                break;
+        }
 
         var self = this;
         loader.load(resPath,
 
             // Function when resource is loaded
-            function ( data ) {
+            function ( data )
+            {
+                NPEngine.loadedAssets[resPath] = data;
                 self.load();
             },
 
@@ -54,6 +75,9 @@ var NPLoader = NPClass.extend({
 
     loadScene : function ()
     {
+         var loader = document.getElementById("loader");
+         loader.remove();
+
         this._scene.loadContent();
     }
 });
