@@ -1,8 +1,7 @@
 # peternikhil28.github.io
 Circular Slot Game Engine
 
-5x3 Machine
-15 Pay Lines
+5x3 Machine - 15 Pay Lines
 
 Pay Lines : 
 
