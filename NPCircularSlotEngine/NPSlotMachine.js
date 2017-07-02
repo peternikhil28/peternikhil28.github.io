@@ -130,7 +130,7 @@ var NPSlotMachine = NPGameScene.extend({
 
         this.setInitialState();
 
-        this.render();
+        this.startRender();
 
         this.actionMoveCameraTo(this._cameraPosition.zoomIn, NPSlotUtils.CAMERA_ZOOM_DURATION, 2, this.initCameraMoveComplete.bind(this));
     },

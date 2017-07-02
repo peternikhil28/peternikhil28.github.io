@@ -75,9 +75,6 @@ var NPLoader = NPClass.extend({
 
     loadScene : function ()
     {
-         var loader = document.getElementById("loader");
-         loader.remove();
-
         this._scene.loadContent();
     }
 });

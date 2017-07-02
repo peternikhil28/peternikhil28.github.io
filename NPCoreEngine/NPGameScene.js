@@ -64,6 +64,14 @@ var NPGameScene = NPClass.extend({
         this._camera.add(NPEngine.audioListener);
     },
 
+    startRender : function()
+    {
+        var loader = document.getElementById("loader");
+        loader.remove();
+        
+        this.render();
+    },
+
     render : function ()
     {
         this._renderer.render(this._scene, this._camera);
