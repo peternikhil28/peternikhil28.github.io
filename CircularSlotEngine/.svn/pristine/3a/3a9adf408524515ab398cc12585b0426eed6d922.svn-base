@@ -1,2 +1,0 @@
-# CircularSlotEngine
-Circular Slot Engine
