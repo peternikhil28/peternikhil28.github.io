@@ -1,0 +1,8 @@
+
+*.iml
+*.xml
+CircularSlotEngine/.svn/entries
+CircularSlotEngine/.svn/format
+*.svn-base
+*.db
+*.db-journal
