@@ -90,7 +90,7 @@ var NPSlotMachine = NPGameScene.extend({
     loadSymbolDefinition : function ()
     {
         var loader = new THREE.FileLoader();
-        loader.load(this._machineParams._assetFolder + 'symbolDefinition.json', this.onDataLoaded.bind(this));
+        loader.load(this._machineParams._assetFolder + 'SymbolDefinition.json', this.onDataLoaded.bind(this));
     },
 
     onDataLoaded:function(inData)
