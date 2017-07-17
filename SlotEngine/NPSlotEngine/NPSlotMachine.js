@@ -88,7 +88,7 @@ var NPSlotMachine = NPGameScreen.extend({
 
     loadSymbolDefinition : function ()
     {
-        NPUtils.loadFile(this._machineParams._assetFolder + 'symbolDefinition.json', this.onDataLoaded.bind(this));
+        NPUtils.loadFile(this._machineParams._assetFolder + 'SymbolDefinition.json', this.onDataLoaded.bind(this));
     },
 
     onDataLoaded:function(inData)
