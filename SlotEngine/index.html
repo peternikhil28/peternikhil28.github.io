@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="framework/three.js"></script>
+    <script type="text/javascript" src="framework/Tween.js"></script>
+    <script type="text/javascript" src="framework/Detector.js"></script>
+</head>
+
+<style>
+
+    body
+    {
+        margin: 0;
+        background-color: black;
+    }
+
+    canvas
+    {
+        height: 100vh;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #initText
+    {
+        color:WHITE;
+        text-align: center;
+        margin-top : 40vh;
+        font-size: 4em;
+    }
+</style>
+
+<body>
+
+     <!-- LOADER -->
+     <div id="loader">
+         <h1 id="initText">Initializing..</h1>
+     </div>
+
+
+    <!-- LOADING JS FILES -->
+    <script>
+        if ( ! Detector.webgl )
+        {
+            Detector.addGetWebGLMessage();
+        }
+
+        var jsList;
+        var index = 0;
+        var loader = new THREE.FileLoader();
+        loader.load('project.json', this.onDataLoaded);
+
+        function onDataLoaded(inData)
+        {
+            var data = JSON.parse(inData);
+            jsList = data["jsList"];
+
+            loadJSFiles();
+        }
+
+        // Sequential Loading jsList
+        function loadJSFiles()
+        {
+            if(index<jsList.length)
+            {
+                loadScript(jsList[index]);
+                index++;
+            }
+            else
+            {
+                jsFilesLoadComplete();
+            }
+        }
+
+        function loadScript(url)
+        {
+            var body = document.body;
+            var script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = url;
+            script.onload = loadJSFiles;
+            body.appendChild(script);
+        }
+
+        function jsFilesLoadComplete()
+        {
+            var loader = new BlankLoader();
+            loader.load();
+        }
+    </script>
+</body>
+
+</html>

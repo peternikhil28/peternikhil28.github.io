@@ -1,0 +1,40 @@
+{
+  "name": "SlotGame",
+  "version": "0.0.1",
+  "jsList" :[
+    "NPCoreEngine/RootClass.js",
+    "NPCoreEngine/NPClass.js",
+    "NPCoreEngine/NPGameScene.js",
+    "NPCoreEngine/NPAudioManager.js",
+    "NPCoreEngine/NPScreenManager.js",
+    "NPCoreEngine/NPEngine.js",
+    "NPCoreEngine/NPGameScreen.js",
+    "NPCoreEngine/NPUtils.js",
+    "NPCoreEngine/NPLoader.js",
+    "NPCoreEngine/BlankLoader.js",
+    "NPCoreEngine/NPBasicObject.js",
+    "NPCoreEngine/NPGroup.js",
+    "NPCoreEngine/NPPoint.js",
+    "NPCoreEngine/NPRect.js",
+    "NPCoreEngine/NPButton.js",
+
+    "NPSlotEngine/NPSlotUtils.js",
+    "NPSlotEngine/NPSlotMachine.js",
+    "NPSlotEngine/NPSlotGenerator.js",
+    "NPSlotEngine/NPSlotEvaluator.js",
+    "NPSlotEngine/NPSlotReelManager.js",
+    "NPSlotEngine/NPSlotReel.js",
+
+    "src/resource.js",
+    "main.js",
+
+    "src/LoadingScreen.js",
+    "src/MainScreen.js",
+
+    "src/slotgame3x3/SlotGame3x3Machine.js",
+
+    "src/slotgame5x3/SlotGame5x3Machine.js",
+
+    "src/slotgame16x4/SlotGame16x4Machine.js"
+  ]
+}

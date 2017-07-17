@@ -1,0 +1,8 @@
+{
+ "screenName" : "LoadingScreen",
+
+ "objects" : [
+  {"name": "LoadingBg", "type": "bo", "x": 640, "y": 360, "w": 1280, "h": 720},
+  {"name": "LoadIcon", "type": "bo", "x": 640, "y": 280, "w": 128, "h": 128}
+ ]
+}

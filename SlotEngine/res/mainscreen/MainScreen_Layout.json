@@ -1,0 +1,10 @@
+{
+ "screenName" : "MainScreen",
+
+ "objects" : [
+  {"name": "Bg", "type": "bo", "x": 640, "y": 360, "w": 1280, "h": 720},
+  {"name": "BtnAqua", "type": "Button", "x": 300, "y": 250, "w": 135, "h": 220},
+  {"name": "BtnForest", "type": "Button", "x": 640, "y": 300, "w": 135, "h": 220},
+  {"name": "BtnBeach", "type": "Button", "x": 940, "y": 250, "w": 135, "h": 220}
+ ]
+}

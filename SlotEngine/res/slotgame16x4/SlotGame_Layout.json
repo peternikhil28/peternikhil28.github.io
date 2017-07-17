@@ -1,0 +1,14 @@
+{
+ "screenName" : "SlotGame",
+
+ "objects" : [
+  {"name": "Bg", "type": "bo", "x": 640, "y": 360, "w": 1280, "h": 720},
+  {"name": "BackBtn", "type": "Button", "x": 100, "y": 600, "w": 100, "h": 100},
+  {"name": "ReelBg", "type": "bo", "x": 640, "y": 360, "w": 1024, "h": 1024},
+  {"name": "MachineHolder", "type": "MachineHolder", "x": 640, "y": 360, "w": 562, "h": 562},
+  {"name": "Icon00", "type": "Icon", "x": 433, "y": 567, "w": 128, "h": 128},
+  {"name": "Icon01", "type": "Icon", "x": 571, "y": 567, "w": 128, "h": 128},
+  {"name": "Icon10", "type": "Icon", "x": 433, "y": 429, "w": 128, "h": 128},
+  {"name": "Spin", "type": "Button", "x": 1100, "y": 100, "w": 100, "h": 100}
+ ]
+}
