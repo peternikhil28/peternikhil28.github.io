@@ -1,0 +1,60 @@
+{"frames": {
+
+"popperBlue.png":
+{
+	"frame": {"x":0,"y":98,"w":55,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":35},
+	"sourceSize": {"w":55,"h":35}
+},
+"popperExplosion.png":
+{
+	"frame": {"x":0,"y":24,"w":47,"h":39},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":39},
+	"sourceSize": {"w":47,"h":39}
+},
+"popperLeftEye.png":
+{
+	"frame": {"x":0,"y":0,"w":22,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":22,"h":24},
+	"sourceSize": {"w":22,"h":24}
+},
+"popperPurple.png":
+{
+	"frame": {"x":0,"y":63,"w":55,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":35},
+	"sourceSize": {"w":55,"h":35}
+},
+"popperRightEye.png":
+{
+	"frame": {"x":22,"y":0,"w":28,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":28,"h":23},
+	"sourceSize": {"w":28,"h":23}
+},
+"popperYellow.png":
+{
+	"frame": {"x":0,"y":133,"w":55,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":55,"h":35},
+	"sourceSize": {"w":55,"h":35}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Popper_00.png",
+	"format": "RGBA8888",
+	"size": {"w":55,"h":168},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:054273ee4d7cb67a94aafdadfd000945:41978df5ad864c2664b117ccb8c0b5e2:80994646b91fa8aaf1d123fccd92d62b$"
+}
+}

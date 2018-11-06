@@ -1,0 +1,14 @@
+{
+ "assetName" : "GameScreen",
+
+ "objects" : [
+  {"name": "GameBg", "type": "Sprite", "x": 568, "y": 320, "w": 1136, "h": 640},
+  {"name": "btnSwap", "type": "Sprite", "x": 568, "y": 590, "w": 50, "h": 50},
+  {"name": "txtLevel", "type": "Label", "x": 100, "y": 25, "w": 100, "h": 50},
+  {"name": "txtAttempts", "type": "Label", "x": 1000, "y": 25, "w": 100, "h": 50},
+  {"name": "txtGameStatus", "type": "Label", "x": 568, "y": 320, "w": 100, "h": 50},
+  {"name": "AnchorRect", "type": "Rect", "x": 127.5, "y": 67.5, "w": 55, "h": 35},
+  {"name": "BottomRect", "type": "Rect", "x": 127.5, "y": 167.5, "w": 55, "h": 35},
+  {"name": "RightRect", "type": "Rect", "x": 292.5, "y": 67.5, "w": 55, "h": 35}
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "assetName" : "Popper",
+
+ "objects" : [
+  {"name": "Popper", "type": "Popper", "x": 27.5, "y": 17.5, "w": 55, "h": 35},
+  {"name": "popperLeftEye", "type": "Sprite", "x": 15, "y": 14, "w": 22, "h": 24},
+  {"name": "popperRightEye", "type": "Sprite", "x": 40, "y": 15, "w": 28, "h": 23},
+  {"name": "popperExplosion", "type": "Sprite", "x": 27.5, "y": 17.5, "w": 47, "h": 39}
+ ]
+}

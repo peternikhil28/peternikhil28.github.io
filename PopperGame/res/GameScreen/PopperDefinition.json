@@ -1,0 +1,55 @@
+{
+  "Poppers" : [
+    {"Id" : 1, "Name" : "Purple", "AssetName" : "popperPurple", "Strength" : 1},
+    {"Id" : 2, "Name" : "Blue", "AssetName" : "popperBlue", "Strength" : 2},
+    {"Id" : 3, "Name" : "Yellow", "AssetName" : "popperYellow", "Strength" : 3}
+  ],
+
+  "DefaultLevel" : 0,
+
+  "Levels" : [
+    {"PopperData": [
+      1,0,0,0,1,0,
+      0,1,0,0,1,0,
+      0,1,0,0,0,1,
+      0,0,1,0,0,1,
+      0,0,1,0,0,0
+    ],
+      "Attempts" : 1},
+
+    {"PopperData": [
+      0,0,0,0,0,0,
+      0,1,0,0,2,0,
+      0,0,0,0,0,0,
+      0,1,0,0,3,0,
+      0,0,0,0,0,0
+    ],
+      "Attempts" : 3},
+
+    {"PopperData": [
+      1,0,1,0,1,0,
+      0,0,2,0,0,0,
+      0,0,1,0,1,0,
+      0,0,2,0,0,0,
+      1,0,2,0,1,0
+    ],
+      "Attempts" : 1},
+
+    {"PopperData": [
+      1,0,0,0,0,1,
+      2,2,2,2,2,2,
+      1,1,3,3,0,1,
+      0,0,1,1,0,0,
+      0,0,0,0,0,0
+    ],
+      "Attempts" : 2},
+
+    {"PopperData": [
+      1,1,1,0,0,1,
+      0,0,0,1,1,1,
+      1,1,1,0,0,0,
+      2,2,2,0,2,0,
+      0,0,3,0,0,0
+    ],
+      "Attempts" : 2}]
+}

@@ -1,0 +1,30 @@
+{"frames": {
+
+"Projectile.png":
+{
+	"frame": {"x":0,"y":0,"w":35,"h":35},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":35,"h":35},
+	"sourceSize": {"w":35,"h":35}
+},
+"btnSwap.png":
+{
+	"frame": {"x":35,"y":0,"w":50,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":50},
+	"sourceSize": {"w":50,"h":50}
+}},
+"animations": {
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "GameScreen_00.png",
+	"format": "RGBA8888",
+	"size": {"w":85,"h":50},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4cdca959e3f84035087365a7b0a8e012:212ca29668d00c4fde3aceca9e8d2d16:d4d26e3fda9bb3168f1448120f3c600c$"
+}
+}

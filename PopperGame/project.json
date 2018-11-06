@@ -1,0 +1,39 @@
+{
+  "name": "Test",
+  "version": "0.0.1",
+  "plugins":["plugins/stats.min.js"],
+  "jsList" :[
+    "NPCoreEngine/NPDisplayObject.js",
+    "NPCoreEngine/NPContainer.js",
+    "NPCoreEngine/NPGameScene.js",
+    "NPCoreEngine/NPAudioManager.js",
+    "NPCoreEngine/NPScreenManager.js",
+    "NPCoreEngine/NPServer.js",
+    "NPCoreEngine/NPCoinManager.js",
+    "NPCoreEngine/NPEventHandler.js",
+    "NPCoreEngine/NPUtils.js",
+    "NPCoreEngine/NPEngine.js",
+    "NPCoreEngine/NPGameObject.js",
+    "NPCoreEngine/NPGameScreen.js",
+    "NPCoreEngine/NPLoader.js",
+    "NPCoreEngine/NPBlankLoader.js",
+    "NPCoreEngine/NPSprite.js",
+    "NPCoreEngine/NPButton.js",
+    "NPCoreEngine/NPSwitch.js",
+    "NPCoreEngine/NPGraphics.js",
+    "NPCoreEngine/NPLabel.js",
+    "NPCoreEngine/NPPopup.js",
+    "NPCoreEngine/NPParticleContainer.js",
+    "NPCoreEngine/NPEventManager.js",
+    "NPCoreEngine/NPLoadingScreen.js",
+
+    "main.js",
+
+    "src/resource.js",
+    "src/LoadingScreen.js",
+
+    "src/Popper/GameScreen.js",
+    "src/Popper/Popper.js",
+    "src/Popper/PopperUtils.js"
+  ]
+}
