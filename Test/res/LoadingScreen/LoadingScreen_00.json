@@ -1,0 +1,20 @@
+{"frames": {
+
+"LoadingIcon.png":
+{
+	"frame": {"x":0,"y":0,"w":300,"h":300},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":300},
+	"sourceSize": {"w":300,"h":300}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "LoadingScreen_00.png",
+	"format": "RGBA8888",
+	"size": {"w":300,"h":300},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a13ad214c3345b9c64d7a794350734d8:305d35a1cdb3b5eb1aadebd186b9ccc8:28322744b9f6e728d9ce7a749f986d89$"
+}
+}

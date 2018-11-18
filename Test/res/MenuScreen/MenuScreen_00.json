@@ -1,0 +1,89 @@
+{"frames": {
+
+"btnCardGame00.png":
+{
+	"frame": {"x":0,"y":0,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+},
+"btnCardGame01.png":
+{
+	"frame": {"x":300,"y":0,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+},
+"btnCardGame02.png":
+{
+	"frame": {"x":600,"y":0,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+},
+"btnFire00.png":
+{
+	"frame": {"x":0,"y":109,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+},
+"btnFire01.png":
+{
+	"frame": {"x":300,"y":109,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+},
+"btnFire02.png":
+{
+	"frame": {"x":600,"y":109,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+},
+"btnMultiText00.png":
+{
+	"frame": {"x":0,"y":218,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+},
+"btnMultiText01.png":
+{
+	"frame": {"x":300,"y":218,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+},
+"btnMultiText02.png":
+{
+	"frame": {"x":600,"y":218,"w":300,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":109},
+	"sourceSize": {"w":300,"h":109}
+}},
+"animations": {
+	"btnCardGame": ["btnCardGame00.png","btnCardGame01.png","btnCardGame02.png"],
+	"btnFire": ["btnFire00.png","btnFire01.png","btnFire02.png"],
+	"btnMultiText": ["btnMultiText00.png","btnMultiText01.png","btnMultiText02.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "MenuScreen_00.png",
+	"format": "RGBA8888",
+	"size": {"w":900,"h":327},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4efcc1351663f43702f856460892d686:fbdc7417c5e93cd39ba27ae5ba4c5f8a:e12c931f7bea52dfdcd953372ebe1e07$"
+}
+}

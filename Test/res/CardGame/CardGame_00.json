@@ -1,0 +1,20 @@
+{"frames": {
+
+"Card.png":
+{
+	"frame": {"x":0,"y":0,"w":50,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":50,"h":70},
+	"sourceSize": {"w":50,"h":70}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "CardGame_00.png",
+	"format": "RGBA8888",
+	"size": {"w":50,"h":70},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:5c7e29a9b3e5857f9851c7959da3f81d:fff8118e0e87fcfd750ea6e6e9592483:18876c7addd7afc97560a0474edc5400$"
+}
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Test",
+  "version": "1.0",
+  "plugins":["plugins/stats.min.js"],
+  "jsList" :[
+    "NPCoreEngine/NPDisplayObject.js",
+    "NPCoreEngine/NPContainer.js",
+    "NPCoreEngine/NPGameScene.js",
+    "NPCoreEngine/NPAudioManager.js",
+    "NPCoreEngine/NPScreenManager.js",
+    "NPCoreEngine/NPServer.js",
+    "NPCoreEngine/NPCoinManager.js",
+    "NPCoreEngine/NPEventHandler.js",
+    "NPCoreEngine/NPUtils.js",
+    "NPCoreEngine/NPEngine.js",
+    "NPCoreEngine/NPGameObject.js",
+    "NPCoreEngine/NPGameScreen.js",
+    "NPCoreEngine/NPLoader.js",
+    "NPCoreEngine/NPBlankLoader.js",
+    "NPCoreEngine/NPSprite.js",
+    "NPCoreEngine/NPButton.js",
+    "NPCoreEngine/NPSwitch.js",
+    "NPCoreEngine/NPGraphics.js",
+    "NPCoreEngine/NPLabel.js",
+    "NPCoreEngine/NPPopup.js",
+    "NPCoreEngine/NPParticleContainer.js",
+    "NPCoreEngine/NPEventManager.js",
+    "NPCoreEngine/NPLoadingScreen.js",
+    "NPCoreEngine/NPMultiText.js",
+
+    "main.js",
+
+    "src/resource.js",
+    "src/LoadingScreen.js",
+
+    "src/MenuScreen.js",
+
+    "src/SubScreen/SubScreen.js",
+
+    "src/SubScreen/MultiTextScreen.js",
+    "src/SubScreen/FireScreen/FireScreen.js",
+    "src/SubScreen/FireScreen/FireParticle.js",
+    "src/SubScreen/CardGame.js",
+
+    "src/Hud.js"
+  ]
+}
