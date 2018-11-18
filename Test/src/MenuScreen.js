@@ -23,6 +23,8 @@ class MenuScreen extends NPGameScreen
                 break;
         }
 
+        NPUtils.fullScreen();
+
         NPEngine.screenManager.loadNewScreen(screen);
     }
 }
