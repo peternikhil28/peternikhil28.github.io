@@ -9,7 +9,8 @@ class CardGame extends SubScreen
         super(assetFolder, layoutName);
 
         this.TOTAL_CARDS = 144;
-        this.CARD_MOVE_DURATION = 500;
+        this.TRIGGER_DURATION = 1000;
+        this.CARD_MOVE_DURATION = 2000;
 
         this._offset = 5;
 
@@ -35,7 +36,7 @@ class CardGame extends SubScreen
     {
         this.createCardSet(this._holder1);
 
-        this.moveAllCards();
+        this.startMoveCards();
 
         super.onReveal();
     }
@@ -51,13 +52,13 @@ class CardGame extends SubScreen
         }
     }
 
-    moveAllCards()
+    startMoveCards()
     {
         this._currentTopIndex = this._toggle ? 0 : this.TOTAL_CARDS - 1;
 
         this._toggle = !this._toggle;
 
-        this.moveCard();
+        this._timeOutId = setInterval(this.moveCard.bind(this), this.TRIGGER_DURATION);
     }
 
     moveCard()
@@ -75,21 +76,23 @@ class CardGame extends SubScreen
         }
 
         this._cardSet[this._currentTopIndex].moveToFront();
-        this._cardSet[this._currentTopIndex].actionMoveTo(this.CARD_MOVE_DURATION, xPos, yPos, null, this.onMoveComplete.bind(this));
-    }
+        this._cardSet[this._currentTopIndex].actionMoveTo(this.CARD_MOVE_DURATION, xPos, yPos);
 
-    onMoveComplete()
-    {
         this._currentTopIndex = this._toggle ? this._currentTopIndex-1 : this._currentTopIndex + 1;
 
-        if(this._currentTopIndex > -1 && this._currentTopIndex < this.TOTAL_CARDS)
-            this.moveCard();
-        else
-            this.moveAllCards();
+        this.checkMoveComplete();
+    }
+
+    checkMoveComplete()
+    {
+        if(!(this._currentTopIndex > -1 && this._currentTopIndex < this.TOTAL_CARDS))
+            clearInterval(this._timeOutId);
     }
 
     destroy()
     {
+        clearInterval(this._timeOutId);
+
         super.destroy();
 
         this._cardSet.length = 0;
