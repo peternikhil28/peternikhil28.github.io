@@ -1,0 +1,59 @@
+
+@import "variables";
+
+
+//Bootstrap
+//  @import "node_modules/bootstrap/scss/functions";
+//  @import "node_modules/bootstrap/scss/variables";
+//  @import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+// //font awesome
+// @import '~@fortawesome/fontawesome-free/css/all.css';
+
+
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: $_color3;
+    border-color: $_color3;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle,.btn-primary:hover{
+    background-color: $_color3_over;
+    border-color: $_color3_over;
+
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus{
+    box-shadow: 0 0 0 0.2rem rgba($_color3_over, 0.5);
+
+}
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: $_color3_over;
+    border-color: $_color3_over;
+    box-shadow: 0 0 0 0.2rem rgba($_color3_over, 0.5);
+}
+
+body{
+    background-color: $_color1;
+    color:$_color4;
+}
+
+._fs10 {font-size: 10px;}
+._fs11 {font-size: 11px;}
+._fs12 {font-size: 12px;}
+._fs13 {font-size: 13px;}
+._fs14 {font-size: 14px;}
+._fs15 {font-size: 15px;}
+._fs16 {font-size: 16px;}
+._fs17 {font-size: 17px;}
+._fs18 {font-size: 18px;}
+._fs19 {font-size: 19px;}
+._fs20 {font-size: 20px;}
+._fs21 {font-size: 21px;}
+._fs22 {font-size: 22px;}
+._fs23 {font-size: 23px;}
+._fs24 {font-size: 24px;}
+
