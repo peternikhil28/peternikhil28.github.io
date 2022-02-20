@@ -8,3 +8,4 @@ CircularSlotEngine/.svn/format
 *.db-journal
 SlotEngine/.svn/entries
 SlotEngine/.svn/format
+.DS_Store
