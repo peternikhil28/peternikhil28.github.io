@@ -1,0 +1,76 @@
+{"frames": {
+
+"Bg1.png":
+{
+	"frame": {"x":0,"y":0,"w":699,"h":465},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":699,"h":465},
+	"sourceSize": {"w":699,"h":465}
+},
+"Bg2.png":
+{
+	"frame": {"x":0,"y":0,"w":699,"h":465},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":699,"h":465},
+	"sourceSize": {"w":699,"h":465}
+},
+"btnPaper.png":
+{
+	"frame": {"x":700,"y":0,"w":163,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":167},
+	"sourceSize": {"w":163,"h":167}
+},
+"btnRock.png":
+{
+	"frame": {"x":0,"y":466,"w":163,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":167},
+	"sourceSize": {"w":163,"h":167}
+},
+"btnScissor.png":
+{
+	"frame": {"x":163,"y":466,"w":163,"h":167},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":163,"h":167},
+	"sourceSize": {"w":163,"h":167}
+},
+"Paper.png":
+{
+	"frame": {"x":326,"y":465,"w":225,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":225,"h":225},
+	"sourceSize": {"w":225,"h":225}
+},
+"Rock.png":
+{
+	"frame": {"x":551,"y":465,"w":171,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":171,"h":225},
+	"sourceSize": {"w":171,"h":225}
+},
+"Scissor.png":
+{
+	"frame": {"x":722,"y":465,"w":159,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":225},
+	"sourceSize": {"w":159,"h":225}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "Game_00.png",
+	"format": "RGBA8888",
+	"size": {"w":881,"h":690},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:26052ced1dbfd88dcdeb8a80aa5cedef:a4c02dbff773fb33352c1da4a1409686:c3281da7df20d37bf1a6a07fdb0d3c46$"
+}
+}

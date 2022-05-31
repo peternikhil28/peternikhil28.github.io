@@ -1,0 +1,13 @@
+{
+    "GameOptions" : [
+      {"id":0, "name":"Rock"},
+      {"id":1, "name":"Paper"},
+      {"id":2, "name":"Scissor"}
+    ],
+
+    "PlayData" : [
+      {"id":0, "win":2, "lose":1},
+      {"id":1, "win":0, "lose":2},
+      {"id":2, "win":1, "lose":0}
+    ]
+}

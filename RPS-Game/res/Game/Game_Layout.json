@@ -1,0 +1,20 @@
+{
+ "assetName" : "Game",
+
+ "objects" : [
+  {"name": "Bg1", "type": "Sprite", "x": 450, "y": 400, "w": 699, "h": 465},
+  {"name": "Bg2", "type": "Sprite", "x": 1470, "y": 400, "w": 699, "h": 465},
+
+  {"name": "Player", "type": "Result", "x": 450, "y": 420, "w": 699, "h": 465},
+  {"name": "Computer", "type": "Result", "x": 1470, "y": 420, "w": 699, "h": 465},
+
+  {"name": "btnRock", "type": "Button", "x": 660, "y": 900, "w": 163, "h": 167},
+  {"name": "btnPaper", "type": "Button", "x": 960, "y": 900, "w": 163, "h": 167},
+  {"name": "btnScissor", "type": "Button", "x": 1260, "y": 900, "w": 163, "h": 167},
+
+  {"name": "txtScore1", "type": "Text", "x": 450, "y": 220, "w": 699, "h": 465, "style":{"fontSize":50,"fill":"#00FF00"}},
+  {"name": "txtScore2", "type": "Text", "x": 1470, "y": 220, "w": 699, "h": 465, "style":{"fontSize":50,"fill":"#00FF00"}},
+
+  {"name": "txtWin", "type": "Text", "x": 960, "y": 100, "w": 699, "h": 465, "style":{"fontSize":50,"fill":"#000000"}}
+ ]
+}
